@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+
+body {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+header .editor {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: solid black 2px;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: block;
+    width: fit-content;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+
+.title {
+    font-family: 'Yanone Kaffeesatz',
+        sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 85px;
+    letter-spacing: 6px;
+    line-height: 80%;
+}
+
+.sub-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+main {
+    column-count: 3;
+    hyphens: auto;
+}
+
+main p {
+    margin-bottom: 0px;
+    margin-top: 0;
+    text-indent: 20px;
+}
+
+main p:first-child {
+    margin-top: 0;
+    text-indent: 0;
+}
+
+main h3 {
+    font-family: 'Yanone Kaffeesatz',
+        sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 15px 0;
+}
